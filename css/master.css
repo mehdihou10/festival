@@ -359,6 +359,9 @@ padding: 70px 0;
     padding: 0 100px;
   }
 }
+.artists .image{
+  height: fit-content;
+}
 .artists .container .second-content{
   display: flex;
   flex-direction: column;
@@ -436,7 +439,9 @@ color: white;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  object-fit: cover;
 }
+
 @media(min-width: 768px) and (max-width: 1199px){
   .schedule img{
   width: calc(100% + 92px);
